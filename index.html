@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日常英会話で頻出する基本前置詞20選 ― コアイメージ徹底ガイド</title>
+<style>
+:root{
+  --green:#006241;       /* スタバ風グリーン */
+  --green-dark:#003d28;
+  --green-light:#e6f2ec;
+  --cream:#fdf8f0;       /* 背景クリーム */
+  --paper:#ffffff;
+  --ink:#1f2a26;         /* 本文の文字色 */
+  --ink-soft:#5a6b65;
+  --gold:#c9a45c;        /* アクセントゴールド */
+  --rose:#b94a4a;        /* 注意・違いの色 */
+  --shadow:0 6px 18px rgba(0,60,40,.08);
+  --radius:14px;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  font-family:-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP","Helvetica Neue",sans-serif;
+  background:var(--cream);
+  color:var(--ink);
+  line-height:1.85;
+  letter-spacing:.01em;
+  font-size:16px;
+}
+
+/* ヘッダー */
+header.hero{
+  background:linear-gradient(135deg,var(--green) 0%,var(--green-dark) 100%);
+  color:#fff;
+  padding:48px 20px 36px;
+  text-align:center;
+  box-shadow:var(--shadow);
+}
+header.hero h1{
+  margin:0 0 8px;
+  font-size:1.55rem;
+  line-height:1.45;
+  font-weight:700;
+}
+header.hero .sub{
+  font-size:.9rem;
+  opacity:.85;
+  margin-top:12px;
+}
+
+/* メインラッパー */
+main{
+  max-width:840px;
+  margin:0 auto;
+  padding:24px 16px 80px;
+}
+
+/* セクション全般 */
+section{
+  background:var(--paper);
+  border-radius:var(--radius);
+  padding:24px 22px;
+  margin-bottom:22px;
+  box-shadow:var(--shadow);
+}
+
+h2{
+  color:var(--green);
+  font-size:1.25rem;
+  margin:0 0 14px;
+  padding-bottom:10px;
+  border-bottom:2px solid var(--green-light);
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+h2::before{
+  content:"";
+  display:inline-block;
+  width:6px;
+  height:22px;
+  background:var(--gold);
+  border-radius:3px;
+}
+
+h3{
+  color:var(--green-dark);
+  font-size:1.1rem;
+  margin:18px 0 10px;
+}
+
+p{margin:.6em 0}
+strong{color:var(--green-dark);font-weight:700}
+em{color:var(--ink-soft);font-style:italic}
+
+ul,ol{padding-left:1.4em;margin:.4em 0 .8em}
+li{margin:.25em 0}
+
+/* TL;DR / Key Findings の中の番号付き */
+.numbered{counter-reset:item;list-style:none;padding-left:0}
+.numbered li{
+  counter-increment:item;
+  position:relative;
+  padding:10px 14px 10px 44px;
+  margin:8px 0;
+  background:var(--green-light);
+  border-radius:10px;
+}
+.numbered li::before{
+  content:counter(item);
+  position:absolute;
+  left:12px;top:10px;
+  width:24px;height:24px;
+  background:var(--green);
+  color:#fff;
+  border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:.8rem;font-weight:700;
+}
+
+/* 凡例ブロック */
+blockquote{
+  margin:14px 0;
+  padding:12px 16px;
+  background:#fff7e6;
+  border-left:4px solid var(--gold);
+  border-radius:6px;
+  color:var(--ink);
+  font-size:.92rem;
+}
+
+/* 目次（前置詞20） */
+.toc{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(120px,1fr));
+  gap:8px;
+  margin-top:10px;
+}
+.toc a{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  gap:8px;
+  background:var(--green-light);
+  color:var(--green-dark);
+  padding:10px 12px;
+  border-radius:10px;
+  text-decoration:none;
+  font-size:.92rem;
+  font-weight:600;
+  transition:transform .15s, background .15s;
+  border:1px solid transparent;
+}
+.toc a:hover,.toc a:active{
+  background:var(--green);
+  color:#fff;
+  transform:translateY(-1px);
+}
+.toc a .num{
+  width:22px;height:22px;
+  border-radius:50%;
+  background:var(--gold);
+  color:#fff;
+  display:flex;align-items:center;justify-content:center;
+  font-size:.72rem;
+  font-weight:700;
+  flex-shrink:0;
+}
+
+/* 前置詞カード */
+.prep{
+  background:var(--paper);
+  border-radius:var(--radius);
+  padding:22px 20px;
+  margin-bottom:18px;
+  box-shadow:var(--shadow);
+  border-top:5px solid var(--green);
+  scroll-margin-top:16px;
+}
+.prep .head{
+  display:flex;
+  align-items:baseline;
+  gap:12px;
+  margin-bottom:10px;
+  flex-wrap:wrap;
+}
+.prep .num{
+  background:var(--gold);
+  color:#fff;
+  padding:3px 10px;
+  border-radius:20px;
+  font-size:.78rem;
+  font-weight:700;
+  letter-spacing:.05em;
+}
+.prep h3.word{
+  margin:0;
+  font-size:1.55rem;
+  color:var(--green);
+  letter-spacing:.02em;
+}
+.prep .tag{
+  font-size:.92rem;
+  color:var(--ink-soft);
+}
+
+.prep h4{
+  color:var(--green-dark);
+  font-size:.98rem;
+  margin:14px 0 6px;
+  padding-left:10px;
+  border-left:3px solid var(--gold);
+}
+
+/* 例文ボックス */
+.examples{
+  background:#fafaf5;
+  border-radius:10px;
+  padding:10px 14px;
+  margin:6px 0;
+}
+.examples li{margin:.4em 0}
+
+/* 比較ボックス */
+.compare{
+  background:#fff5f5;
+  border-left:4px solid var(--rose);
+  padding:10px 14px;
+  border-radius:6px;
+  margin:6px 0;
+}
+.compare li{margin:.35em 0}
+
+/* コロケーション */
+.collo{
+  background:var(--green-light);
+  border-radius:10px;
+  padding:10px 14px;
+  margin:6px 0;
+}
+
+/* セパレータ装飾 */
+.divider{
+  text-align:center;
+  margin:30px 0 10px;
+  color:var(--gold);
+  font-size:1.2rem;
+  letter-spacing:1em;
+}
+
+/* トップへ戻るボタン */
+.top-btn{
+  position:fixed;
+  bottom:20px;right:20px;
+  width:48px;height:48px;
+  border-radius:50%;
+  background:var(--green);
+  color:#fff;
+  border:none;
+  font-size:1.3rem;
+  box-shadow:var(--shadow);
+  cursor:pointer;
+  display:none;
+  align-items:center;justify-content:center;
+  z-index:100;
+}
+.top-btn.show{display:flex}
+
+/* スマホ向け調整 */
+@media(max-width:480px){
+  body{font-size:15px}
+  header.hero h1{font-size:1.25rem}
+  section,.prep{padding:18px 16px}
+  h2{font-size:1.1rem}
+  .prep h3.word{font-size:1.35rem}
+  .toc{grid-template-columns:repeat(auto-fill,minmax(100px,1fr))}
+}
+
+/* 印刷時 */
+@media print{
+  body{background:#fff;font-size:12pt}
+  header.hero{background:#fff;color:var(--green-dark);box-shadow:none;padding:20px 0}
+  section,.prep{box-shadow:none;page-break-inside:avoid;border:1px solid #ccc;margin-bottom:14px}
+  .top-btn,.toc{display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>日常英会話で頻出する基本前置詞20選<br>― コアイメージ徹底ガイド ―</h1>
+  <div class="sub">in / on / at / to / for / of / with / from / by / about / into / through / after / before / between / over / under / around / like / without</div>
+</header>
+
+<main>
+
+<!-- TL;DR -->
+<section id="tldr">
+  <h2>TL;DR ― 一言まとめ</h2>
+  <ul>
+    <li><strong>会話の大半をカバーする実用20個</strong>は、Mark Davies の Word Frequency データ（wordfrequency.info／COCA）と Oxford English Corpus（OEC）の頻度を統合し、<strong>of, to, in, for, on, with, at, by, from, about, into, through, after, before, between, over, under, around, like, without</strong> に絞り込みました。Wikipedia「Most common words in English」のOEC順位では、前置詞の総合上位10個は <strong>to(3位), of(4位), in(7位), for(12位), on(14位), with(15位), at(20位), by(24位), from(25位), about(45位)</strong> の順で確認でき、これらが英会話の前置詞使用の大半を占めます。</li>
+    <li><strong>コアイメージ理論</strong>（Tyler &amp; Evans 2003 の protoscene、大西泰斗・田中茂範のイメージ・スキーマ）で各前置詞を「波」「点」「容器」「接触面」など流体的メタファーで一元化すれば、丸暗記が不要になり多義語問題（例：on は Wiktionary で <strong>43通り</strong> ものセンスがあるとされる）が一本の幹から枝分かれして見えるようになります。</li>
+    <li><strong>使い分けの最重要4トリオ</strong>：① in/on/at（空間スケール 大→中→点／時間スケール 長→中→点）、② to/for（到達 vs 方向のみ）、③ by/with（行為者・大手段 vs 道具・同伴）、④ during/for/while（いつ＋名詞 vs どれくらい＋期間 vs 同時＋節）。この4組さえ押さえれば、日常会話のミスは劇的に減ります。</li>
+  </ul>
+</section>
+
+<!-- Key Findings -->
+<section id="key">
+  <h2>Key Findings ― 4つの重要発見</h2>
+  <ol class="numbered">
+    <li><strong>前置詞は「流体」である</strong>：認知言語学の中核概念 protoscene について Tyler &amp; Evans (2003, <em>The Semantics of English Prepositions</em>, Cambridge University Press, ch.2) は、原文で次のように定義しています：<em>"As humans interact with the world, they perceive recurring spatial configuration that become represented in memory as abstract, imagistic conceptualizations. We posit that each preposition is represented by a primary meaning, which we term a PROTOSCENE."</em> 前置詞は静的なラベルではなく、トラジェクター（動く対象）とランドマーク（基準）の間の関係性の流れを表す装置です。</li>
+    <li><strong>頻度の上位10個 (of, to, in, for, on, with, at, by, from, about) で英文の前置詞の半分以上が説明できる</strong>：これらはすべて中学1〜2年で出会う語であり、日常英会話を支える「基底周波数」です。</li>
+    <li><strong>コアイメージは「物理→時間→抽象」と層を変えて拡張する</strong>：たとえば in は「容器の中（物理）」→「ある期間の中（時間）」→「ある状態の中（抽象： in love, in trouble）」と同じイメージで貫けます。これが認知言語学の「メタファー的拡張」(Lakoff &amp; Johnson 1980 <em>Metaphors We Live By</em>) の核心です。</li>
+    <li><strong>日本語訳に頼ると必ず破綻する</strong>：「〜で」だけでも by, with, in, at, on のどれにもなり得るため、訳ではなくイメージで切り分けるのが唯一の解決策です。</li>
+  </ol>
+</section>
+
+<!-- 目次 -->
+<section id="toc">
+  <h2>目次 ― 20前置詞へジャンプ</h2>
+  <div class="toc">
+    <a href="#p1"><span class="num">1</span>in</a>
+    <a href="#p2"><span class="num">2</span>on</a>
+    <a href="#p3"><span class="num">3</span>at</a>
+    <a href="#p4"><span class="num">4</span>to</a>
+    <a href="#p5"><span class="num">5</span>for</a>
+    <a href="#p6"><span class="num">6</span>of</a>
+    <a href="#p7"><span class="num">7</span>with</a>
+    <a href="#p8"><span class="num">8</span>from</a>
+    <a href="#p9"><span class="num">9</span>by</a>
+    <a href="#p10"><span class="num">10</span>about</a>
+    <a href="#p11"><span class="num">11</span>into</a>
+    <a href="#p12"><span class="num">12</span>through</a>
+    <a href="#p13"><span class="num">13</span>after</a>
+    <a href="#p14"><span class="num">14</span>before</a>
+    <a href="#p15"><span class="num">15</span>between</a>
+    <a href="#p16"><span class="num">16</span>over</a>
+    <a href="#p17"><span class="num">17</span>under</a>
+    <a href="#p18"><span class="num">18</span>around</a>
+    <a href="#p19"><span class="num">19</span>like</a>
+    <a href="#p20"><span class="num">20</span>without</a>
+  </div>
+</section>
+
+<!-- Details ヘッダー -->
+<section>
+  <h2>Details ― 20前置詞 完全マップ</h2>
+  <blockquote><strong>凡例</strong>：各セクションは ①コアイメージ（流体メタファー） ②主な用法 ③日常会話の例文（日本語訳付） ④間違えやすい類似前置詞 ⑤頻出コロケーション の5項目で統一。</blockquote>
+</section>
+
+<!-- ▼ 1. in -->
+<article class="prep" id="p1">
+  <div class="head"><span class="num">No.1</span><h3 class="word">in</h3><span class="tag">― 容器の「内側」、満たされる空間</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>三次元の容器の内側に包み込まれている</strong>状態。水で満たされたガラス瓶の中の魚、青い空に浮かぶ雲、家の中、街の中、月の中（一年）、霧の中（状態）。トラジェクターはランドマークの境界の内側に「沈んで」いる。波が満ちる湾のように、対象を周囲ぐるりと囲む立体空間。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>場所（広い空間・容器の中）：in the room, in Tokyo, in the car</li>
+    <li>時間（月・年・季節など長い期間）：in May, in 2026, in the morning</li>
+    <li>状態（抽象的な「中」）：in love, in trouble, in English</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"She lives <strong>in</strong> Osaka." — 彼女は大阪に住んでいる。（広い空間の内側）</li>
+    <li>"I'll see you <strong>in</strong> April." — 4月に会いましょう。（長い期間の中）</li>
+    <li>"He's <strong>in</strong> a good mood today." — 彼は今日機嫌がいい。（状態の中）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs at</strong>：in は「広がりのある空間の中」、at は「点としての場所」。Cambridge Dictionary（At, on and in (place)）は "We use at with specific places or points (at the door), in with larger areas (in London)" と説明。</li>
+    <li><strong>vs into</strong>：in は静的な内側、into は「外から中への移動」。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>in front of</strong>（〜の前に）："The car is in front of the house."</li>
+    <li><strong>in time</strong>（間に合って）／<strong>on time</strong>（時間通りに）— in は余裕のある中、on は点接触</li>
+    <li><strong>be interested in</strong>（〜に興味がある）</li>
+  </ul>
+</article>
+
+<!-- ▼ 2. on -->
+<article class="prep" id="p2">
+  <div class="head"><span class="num">No.2</span><h3 class="word">on</h3><span class="tag">― 接触する面、くっついて支えられる</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>面に接触してそこから離れない</strong>状態。重力で床にくっつく、磁石が冷蔵庫に貼り付く、波が岩の表面を覆う ― on の本質は「上」ではなく「接触」。大西泰斗『ネイティブスピーカーの前置詞』（研究社）の有名な解説では「on の本質の意味は『くっついている』」とされています。だから天井に貼ったポスターも a poster on the ceiling、壁の絵も a picture on the wall。Wiktionaryによれば on は <strong>43通り</strong> ものセンスを持つ典型的な多義語ですが、すべて「接触」イメージから派生します。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>場所（接触面）：on the table, on the wall, on my finger</li>
+    <li>時間（特定の日・曜日）：on Monday, on July 4th, on Christmas Day</li>
+    <li>媒体・話題："on TV", "a book on history"</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"Your phone is <strong>on</strong> the desk." — 電話が机の上にあるよ。（接触）</li>
+    <li>"Let's meet <strong>on</strong> Friday." — 金曜に会おう。（特定の日）</li>
+    <li>"I saw it <strong>on</strong> the news." — ニュースで見た。（媒体への接触）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs in</strong>：on は表面接触、in は内側包含。"in the bus"（中に乗っている）vs "on the bus"（路線バスに乗っている=床に接触）。</li>
+    <li><strong>vs over/above</strong>：on は触れている、over/above は触れていない高い位置。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>depend on</strong>（〜に頼る）："It depends on the weather."</li>
+    <li><strong>on foot</strong>（徒歩で）／<strong>on time</strong>（時間通りに）</li>
+    <li><strong>turn on / turn off</strong>（電源を入れる／切る）— 電流が回路にくっつく／離れる</li>
+  </ul>
+</article>
+
+<!-- ▼ 3. at -->
+<article class="prep" id="p3">
+  <div class="head"><span class="num">No.3</span><h3 class="word">at</h3><span class="tag">― 一点に焦点が合う、ピンポイント</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>ある一点・ピンポイントに集中する</strong>。広い地図を見下ろして、針が刺さる「点」。波の動きが一瞬凍りつく一点。場所も時間も「点」として扱う。空間スケールは in &gt; on &gt; at の順で大→面→点と細くなる。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>場所（特定の地点・住所）：at the station, at the door, at 5 Main Street</li>
+    <li>時刻（点としての時間）：at 8 a.m., at noon, at midnight</li>
+    <li>標的・対象："look at", "shoot at", "smile at"</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"I'll meet you <strong>at</strong> the cafe." — カフェで会おう。（地点）</li>
+    <li>"The meeting starts <strong>at</strong> 3 o'clock." — 会議は3時から始まる。（時刻の点）</li>
+    <li>"Don't shout <strong>at</strong> me!" — 怒鳴らないで！（攻撃の対象点）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs in</strong>：at は点（at the school = 学校という地点に）、in は内側（in the school = 校舎の中）。</li>
+    <li><strong>vs to</strong>：look at は「視線を向ける（点で止まる）」、look to は「〜を頼りにする（向かう）」。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>look at</strong>（〜を見る）／<strong>laugh at</strong>（〜を笑う）— 点としての対象</li>
+    <li><strong>good at / bad at</strong>（〜が得意／苦手）</li>
+    <li><strong>at last</strong>（ついに）／<strong>at least</strong>（少なくとも）</li>
+  </ul>
+</article>
+
+<!-- ▼ 4. to -->
+<article class="prep" id="p4">
+  <div class="head"><span class="num">No.4</span><h3 class="word">to</h3><span class="tag">― 矢印、到達する方向</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>矢印で「到達点」に向かい、そこに届く</strong>。AからBへ、川が海に注ぐように、ベクトルとしての方向＋ゴール。田中茂範・大西泰斗の解説では「対象に到達する・対象と向き合う」。face to face のように「向かい合う」感覚も含む。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>方向・到達点：go to school, send a letter to her</li>
+    <li>相手・受け手：give it to me, talk to him</li>
+    <li>比較・関係：prefer A to B, similar to, married to</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"I'm going <strong>to</strong> the gym." — ジムに行く。（到達点）</li>
+    <li>"Give this <strong>to</strong> your mother." — これをお母さんに渡して。（受け手）</li>
+    <li>"She's married <strong>to</strong> a doctor." — 彼女は医者と結婚している。（関係）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs for</strong>：to は到達（I sent the letter to her = 彼女に届いた）、for は「彼女のために」（届いていなくても、彼女が利益を受ける）。Grammarly: "to shows direction and movement, while for shows purpose and benefit." ESLBuzz: "To = direction, for = reason."</li>
+    <li><strong>vs at</strong>：look to（頼る）、look at（見つめる）。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>listen to</strong>（〜を聞く）／<strong>talk to</strong>（〜と話す）</li>
+    <li><strong>belong to</strong>（〜に属する）／<strong>lead to</strong>（〜に至る）</li>
+    <li><strong>from A to B</strong>（AからBまで）</li>
+  </ul>
+</article>
+
+<!-- ▼ 5. for -->
+<article class="prep" id="p5">
+  <div class="head"><span class="num">No.5</span><h3 class="word">for</h3><span class="tag">― ある方向への意識、利益のため</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>特定の方向にエネルギーが向かっている</strong>が、必ずしも到達しているとは限らない。腕を伸ばして抱きとめる範囲。「〜のために」「〜に向かって」。to が矢の到達点まで描くのに対し、for は矢の進む方向だけを描く。語源的には before（〜の前に立って＝代わりに）に由来し、「代理・交換」のニュアンスも持つ。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>目的・利益：a gift for you, study for the test</li>
+    <li>期間：for two hours, for a long time</li>
+    <li>賛成・支持：vote for, fight for</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"I bought this <strong>for</strong> you." — 君のために買った。（利益）</li>
+    <li>"I've lived here <strong>for</strong> five years." — 5年間ここに住んでいる。（期間）</li>
+    <li>"This bus is <strong>for</strong> Shibuya." — このバスは渋谷行きです。（方向）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs to</strong>：構造的に "for + 名詞 / to + 動詞"。"I came to see you" vs "I came for you"（前者は動作の目的、後者は人＝対象）。</li>
+    <li><strong>vs during</strong>：for は期間の長さ（for 3 hours）、during は「いつ」（during the meeting）。</li>
+    <li><strong>important to me</strong>（自分にとって大切＝感情的）vs <strong>important for me</strong>（自分のためになる＝利益）。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>wait for</strong>（〜を待つ）／<strong>look for</strong>（〜を探す）</li>
+    <li><strong>pay for</strong>（〜の代金を払う）／<strong>thank you for</strong>（〜をありがとう）</li>
+    <li><strong>for example / for instance</strong>（例えば）</li>
+  </ul>
+</article>
+
+<!-- ▼ 6. of -->
+<article class="prep" id="p6">
+  <div class="head"><span class="num">No.6</span><h3 class="word">of</h3><span class="tag">― 全体から切り出された一部、所属の絆</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>全体と部分の切っても切れない関係</strong>。Tyler &amp; Evans (2003) は of について "[of] appears to be one of only a few spatial particles, which, in synchronic terms, seems to have become largely dissociated from its spatial origin"（共時的にはほぼ抽象化している）と指摘。日本の認知言語学解説では「of のイメージは『所属からの分離』。『分離』の意味を強調したのが off」と整理されます。海から汲み上げた一杯の水、その水は海に属しつつ、海から切り出されている、というイメージ。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>所有・所属：the leg of the table, a friend of mine</li>
+    <li>構成・材料：a glass of water, made of wood</li>
+    <li>内容・についての：think of, dream of</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"She's a friend <strong>of</strong> mine." — 彼女は私の友人です。（所属）</li>
+    <li>"I'd like a cup <strong>of</strong> coffee." — コーヒーを一杯ください。（部分）</li>
+    <li>"I often think <strong>of</strong> you." — よく君のことを考える。（対象）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>made of vs made from</strong>：of は形が見える（made of wood = 見れば木とわかる）、from は形が変わる（made from grapes ＝ ブドウから変質してワインに）。</li>
+    <li><strong>think of vs think about</strong>：of は「ふと思い浮かべる」（瞬間的）、about は「あれこれ考える」（持続的）。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>a lot of / lots of</strong>（たくさんの）</li>
+    <li><strong>be afraid of</strong>（〜が怖い）／<strong>be proud of</strong>（〜を誇りに思う）</li>
+    <li><strong>because of</strong>（〜のために）／<strong>instead of</strong>（〜の代わりに）</li>
+  </ul>
+</article>
+
+<!-- ▼ 7. with -->
+<article class="prep" id="p7">
+  <div class="head"><span class="num">No.7</span><h3 class="word">with</h3><span class="tag">― 一緒に流れる、伴うもの</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>何かを伴って・一緒に存在する</strong>。田中茂範 ENGLISH JOURNAL（ALC）：「with のコアイメージの『〜とともに』から、『伴って』と『手にして』という2つの意味グループに派生する」。語源的には「対立（against）」だったが現代英語では完全に同伴の意味。並走する2本の波、同じ周波数で揺れる2つの物体。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>同伴：go with friends, live with parents</li>
+    <li>道具・手段：cut with a knife, write with a pen</li>
+    <li>様態・特徴：a girl with blue eyes, with a smile</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"I'm having dinner <strong>with</strong> my family." — 家族と夕食です。（同伴）</li>
+    <li>"Cut the bread <strong>with</strong> this knife." — このナイフでパンを切って。（道具）</li>
+    <li>"He spoke <strong>with</strong> confidence." — 彼は自信を持って話した。（様態）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs by</strong>：Redwood Ink 解説 "By indicates who performed the action, whereas with indicates what was used to perform the action." 「The book was written <strong>by</strong> Shakespeare <strong>with</strong> a quill pen」（行為者は by、道具は with）。</li>
+    <li><strong>vs without</strong>：with は伴う、without は伴わない（ペアの逆向き）。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>agree with</strong>（〜に同意する）／<strong>deal with</strong>（〜に対処する）</li>
+    <li><strong>with regard to</strong>（〜に関して）</li>
+    <li><strong>fall in love with</strong>（〜と恋に落ちる）</li>
+  </ul>
+</article>
+
+<!-- ▼ 8. from -->
+<article class="prep" id="p8">
+  <div class="head"><span class="num">No.8</span><h3 class="word">from</h3><span class="tag">― 起点、出発する点</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>ある点を起点として離れていく</strong>。川の源流、矢が放たれた弓、出発駅。to が矢の先端なら、from は矢のしっぽ。ベクトルの「出どころ」。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>場所の起点：from Tokyo, from school</li>
+    <li>時間の起点：from 9 to 5, from Monday</li>
+    <li>出所・原料：a letter from Mom, made from grapes</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"I'm <strong>from</strong> Japan." — 日本出身です。（起点）</li>
+    <li>"The store is open <strong>from</strong> 10 a.m." — 店は午前10時から開く。（時間の起点）</li>
+    <li>"Wine is made <strong>from</strong> grapes." — ワインはブドウから作られる。（原料）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs since</strong>：from は単なる起点（場所・時間どちらも）、since は「現在まで継続」（時間のみ：since 2020）。</li>
+    <li><strong>made from vs made of</strong>：上記 of の項目参照。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>far from</strong>（〜から遠い）／<strong>different from</strong>（〜と異なる）</li>
+    <li><strong>from now on</strong>（今から先）</li>
+    <li><strong>suffer from</strong>（〜に苦しむ）</li>
+  </ul>
+</article>
+
+<!-- ▼ 9. by -->
+<article class="prep" id="p9">
+  <div class="head"><span class="num">No.9</span><h3 class="word">by</h3><span class="tag">― そばを通る、行為の通路</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>「そばを通って→近接→手段・行為者」と展開する流れ</strong>。Lindstromberg の <em>English Prepositions Explained</em> (2010, John Benjamins) 改訂版 第11章の章題は "By, near, past: Near to, nearby, close (to), next to, around" であり、by を near, past と同じ「近接＋通過」の意味家族として扱っています。原義は「そば」、そこから「そばを通って→そこを通り道として→〜によって」へと展開する。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>近接：sit by the window, by the river</li>
+    <li>手段・経路：by train, by email, by 2030（期限）</li>
+    <li>行為者（受動態）：written by Soseki</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"I'll send it <strong>by</strong> email." — メールで送ります。（手段）</li>
+    <li>"We sat <strong>by</strong> the lake." — 湖のそばに座った。（近接）</li>
+    <li>"Finish it <strong>by</strong> Friday." — 金曜までに終わらせて。（期限）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs with</strong>：by = 行為者・大きな手段（by train, written by him）、with = 道具（with a pen）。</li>
+    <li><strong>vs until</strong>：by は「期限までに完了」（点）、until は「その時まで継続」（線）。"Finish by 5"（5時までに終える）vs "Stay until 5"（5時までいる）。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>by the way</strong>（ところで）／<strong>by mistake</strong>（誤って）</li>
+    <li><strong>by myself</strong>（一人で）／<strong>step by step</strong>（一歩ずつ）</li>
+    <li><strong>little by little</strong>（少しずつ）</li>
+  </ul>
+</article>
+
+<!-- ▼ 10. about -->
+<article class="prep" id="p10">
+  <div class="head"><span class="num">No.10</span><h3 class="word">about</h3><span class="tag">― 〜の周りを漂う、話題のオーラ</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>対象の周囲を漂う、ぐるりと囲む</strong>。話題の周辺を浮遊するイメージ。"a book about history" は歴史のテーマの周りを本の内容が漂っている。「およそ」の意味も、正確な数値の周りに揺らぎがあるイメージ。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>話題：talk about, think about, a story about</li>
+    <li>概数：about 3 o'clock, about 100 people</li>
+    <li>周辺・あちこち（米英で round/around と互換）</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"Let's talk <strong>about</strong> the plan." — 計画について話そう。（話題）</li>
+    <li>"It's <strong>about</strong> five kilometers." — 約5キロです。（概数）</li>
+    <li>"I'm worried <strong>about</strong> you." — 君のことが心配だ。（対象周辺）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>think about vs think of</strong>：about は「あれこれ熟考」、of は「ふと思い浮かぶ」。</li>
+    <li><strong>vs around</strong>：Oxford Learner's Dictionary "About or around can be used... to mean 'approximately': We left around/about 8 o'clock." 物理的「周囲」では around がより一般的。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>what about / how about</strong>（〜はどう？）</li>
+    <li><strong>be about to</strong>（まさに〜しようとしている）</li>
+    <li><strong>worry about</strong>（〜を心配する）</li>
+  </ul>
+</article>
+
+<!-- ▼ 11. into -->
+<article class="prep" id="p11">
+  <div class="head"><span class="num">No.11</span><h3 class="word">into</h3><span class="tag">― 外から中への突入、変化</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>in（中）+ to（到達）の合体</strong>。外から内部空間への動的な「飛び込み」。または、ある状態から別の状態への「変身」。波が容器に流れ込むイメージ。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>内部への移動：walk into the room, jump into the pool</li>
+    <li>変化・変身：turn into, translate into</li>
+    <li>衝突：bump into, run into</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"She walked <strong>into</strong> the kitchen." — 彼女はキッチンに入っていった。（移動）</li>
+    <li>"The caterpillar turned <strong>into</strong> a butterfly." — 毛虫が蝶になった。（変化）</li>
+    <li>"I ran <strong>into</strong> an old friend." — 旧友にばったり会った。（偶然の遭遇）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs in</strong>：in は静的な「中にある」、into は動的な「中へ入る」。"She is in the room"（中にいる）vs "She walked into the room"（中へ入った）。</li>
+    <li><strong>vs onto</strong>：into は内部、onto は表面の上へ。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>get into</strong>（〜に入る・〜にハマる）："I'm into K-pop."</li>
+    <li><strong>look into</strong>（〜を調査する）</li>
+    <li><strong>bump into</strong>（偶然出会う）</li>
+  </ul>
+</article>
+
+<!-- ▼ 12. through -->
+<article class="prep" id="p12">
+  <div class="head"><span class="num">No.12</span><h3 class="word">through</h3><span class="tag">― 一方の端から他方へ通り抜ける</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>トンネルを最初から最後まで通過する</strong>。田中茂範 ENGLISH JOURNAL では "経路を表す前置詞 across、along、through" の代表として整理。入口から入って、貫通して、出口から出る。物理的な通過から、期間の経過、手段（〜を通じて）まで一貫したイメージ。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>物理的通過：walk through the park, look through the window</li>
+    <li>時間の通過：through the night, all through the year</li>
+    <li>手段・経由：through the internet, through hard work</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"The train goes <strong>through</strong> a tunnel." — 列車はトンネルを通る。（物理通過）</li>
+    <li>"I worked <strong>through</strong> the night." — 一晩中働いた。（時間の通過）</li>
+    <li>"I learned about it <strong>through</strong> a friend." — 友人を通して知った。（手段）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs across</strong>：across は平面を横切る（across the street）、through は立体・3次元を貫通する（through the forest）。</li>
+    <li><strong>vs by</strong>：by は手段（by email = 道具として）、through は媒介・経由（through a friend = 仲介として）。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>go through</strong>（〜を経験する）／<strong>get through</strong>（乗り越える）</li>
+    <li><strong>through and through</strong>（徹底的に）</li>
+    <li><strong>see through</strong>（見抜く・透けて見える）</li>
+  </ul>
+</article>
+
+<!-- ▼ 13. after -->
+<article class="prep" id="p13">
+  <div class="head"><span class="num">No.13</span><h3 class="word">after</h3><span class="tag">― 後ろから追いかける、時間の後</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>ある事象の「後ろ」</strong>。時間軸でも空間でも、誰か・何かの後を追う。波が次々に押し寄せる順序の「次の波」。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>時間：after lunch, after school, after 5 p.m.</li>
+    <li>順序・追跡：one after another, run after, look after</li>
+    <li>〜にちなんで：named after my grandmother</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"Let's meet <strong>after</strong> work." — 仕事のあとに会おう。（時間）</li>
+    <li>"The cat ran <strong>after</strong> the mouse." — 猫がネズミを追いかけた。（追跡）</li>
+    <li>"I'm named <strong>after</strong> my grandfather." — 祖父にちなんで名付けられた。（由来）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs since</strong>：after は「〜の後で」（時点）、since は「〜以来ずっと」（継続）。</li>
+    <li><strong>vs behind</strong>：after は時間・順序、behind は空間的「後ろ」。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>look after</strong>（〜の世話をする）</li>
+    <li><strong>after all</strong>（結局）／<strong>after a while</strong>（しばらくして）</li>
+    <li><strong>day after day</strong>（来る日も来る日も）</li>
+  </ul>
+</article>
+
+<!-- ▼ 14. before -->
+<article class="prep" id="p14">
+  <div class="head"><span class="num">No.14</span><h3 class="word">before</h3><span class="tag">― 前に立つ、時間の前</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>ある事象の「前」</strong>。after の対称ペア。時間でも順序でも空間でも「前」。語源的には「fore（前方に）」と関連し、目の前に立つイメージ。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>時間：before noon, before sunset</li>
+    <li>順序：A comes before B</li>
+    <li>〜の前で（フォーマル）：stand before the judge</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"Brush your teeth <strong>before</strong> bed." — 寝る前に歯を磨いて。（時間）</li>
+    <li>"Z comes after Y, before A in alphabetical order." — Zは順序的にYの後、Aの前。</li>
+    <li>"She stood <strong>before</strong> the audience." — 彼女は聴衆の前に立った。（フォーマル）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs ago</strong>：before は基準点に対する「前」（before noon）、ago は現在から遡る（two days ago）。Cambridge Dictionary: "When we refer to a period of time that is completed and which goes from a point in the past up to now, we use ago, not before."</li>
+    <li><strong>vs in front of</strong>：before は時間・抽象でも使う、in front of は物理的な「目の前」がメイン。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>before long</strong>（まもなく）</li>
+    <li><strong>the day before yesterday</strong>（一昨日）</li>
+    <li><strong>just before</strong>（〜の直前）</li>
+  </ul>
+</article>
+
+<!-- ▼ 15. between -->
+<article class="prep" id="p15">
+  <div class="head"><span class="num">No.15</span><h3 class="word">between</h3><span class="tag">― 2つの間に挟まれる</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>2つ（または明確に区別される複数）の対象の間</strong>に挟まれている。境界がはっきりしている。2つの島の間を流れる水路。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>場所：between the desks, between Tokyo and Osaka</li>
+    <li>時間：between 9 and 11</li>
+    <li>関係・選択：the difference between A and B, choose between</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"The bank is <strong>between</strong> the post office and the cafe." — 銀行は郵便局とカフェの間にある。</li>
+    <li>"Let's meet <strong>between</strong> 2 and 3." — 2時から3時の間に会おう。</li>
+    <li>"What's the difference <strong>between</strong> these two?" — この2つの違いは？</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs among</strong>：Cambridge Dictionary: between は「明確に区別される対象」（2つでも3つ以上でもOK）、among は「グループ・群衆の中」（不明確な集合）。"Negotiations between France, Germany, and Japan"（個別）vs "She wanted to be among friends"（友人たち全体の中で）。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>between you and me</strong>（ここだけの話）</li>
+    <li><strong>in between</strong>（その間に）</li>
+    <li><strong>between A and B</strong>（AとBの間）</li>
+  </ul>
+</article>
+
+<!-- ▼ 16. over -->
+<article class="prep" id="p16">
+  <div class="head"><span class="num">No.16</span><h3 class="word">over</h3><span class="tag">― 上をアーチ型に覆う、超える</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>Tyler &amp; Evans (2003) のprotoscene</strong>：トラジェクター（TR）はランドマーク（LM）より高い位置にあり、近接領域内にある。Termwiki 等の二次資料は同書の定義を要約して "The fact that the TR is located above the LM indicates that the spatiogeometric relation involves a 'higher than' or above relation. The dashed line indicates that the TR must be within a region proximal to the LM" と引用しています。橋がアーチ状に川の上をまたぐイメージから、覆う・超える・終わるという派生意味へ。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>上方（接触なし）／覆う：a bridge over the river, put a blanket over</li>
+    <li>超える・〜以上：over 100 people, over 30 years old</li>
+    <li>終わる・〜の間中：the war is over, over the weekend</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"The plane flew <strong>over</strong> the city." — 飛行機が街の上を飛んだ。（上方通過）</li>
+    <li>"I waited for <strong>over</strong> an hour." — 1時間以上待った。（超過）</li>
+    <li>"Let's talk <strong>over</strong> dinner." — 夕食を取りながら話そう。（同時進行）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs above</strong>：over は接触・覆う・動きを含み得る、above は単に「より高い」（接触なし、動きなし）。Cambridge Grammar: "We use above, but not over, to refer to things that are at an upper or higher level... We don't use above when one thing touches or covers another."</li>
+    <li><strong>vs across</strong>：over はアーチ型（上を）、across は平面横断。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>all over</strong>（〜の至る所で）</li>
+    <li><strong>over and over</strong>（何度も繰り返し）</li>
+    <li><strong>get over</strong>（乗り越える）</li>
+  </ul>
+</article>
+
+<!-- ▼ 17. under -->
+<article class="prep" id="p17">
+  <div class="head"><span class="num">No.17</span><h3 class="word">under</h3><span class="tag">― 下に隠れる、覆われる</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>何かに覆われた下の状態</strong>。over の対称ペア。傘の下、橋の下、上司の下（管理下）、年齢の下（〜未満）。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>下方（接触あり／覆われる）：under the bed, under the table</li>
+    <li>〜未満：under 18, under $50</li>
+    <li>状態下：under construction, under pressure</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"The cat is <strong>under</strong> the table." — 猫がテーブルの下にいる。（位置）</li>
+    <li>"Children <strong>under</strong> 5 enter free." — 5歳未満は無料。（数値の下）</li>
+    <li>"The bridge is <strong>under</strong> construction." — 橋は工事中です。（状態下）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs below</strong>：under は接触・覆い・支配を含む、below は単に「下のレベル」。"The cat is under the blanket"（毛布の下＝覆われている）vs "below sea level"（海面より下＝レベル）。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>under control</strong>（コントロール下）</li>
+    <li><strong>under pressure</strong>（プレッシャーの下で）</li>
+    <li><strong>under the weather</strong>（体調が悪い）</li>
+  </ul>
+</article>
+
+<!-- ▼ 18. around -->
+<article class="prep" id="p18">
+  <div class="head"><span class="num">No.18</span><h3 class="word">around</h3><span class="tag">― 周りをぐるりと、おおよそ</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>ぐるりと周囲を取り巻く・回る</strong>。中心から放射状の波紋。物理的な「周辺」から、時間・数値の「およそ」、行動範囲の「あちこち」へ拡張。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>周囲・取り囲み：around the table, around the corner</li>
+    <li>あちこち：travel around, look around</li>
+    <li>およそ（米国英語で about の代わり）：around 8 o'clock</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"We sat <strong>around</strong> the campfire." — 焚き火を囲んで座った。（取り囲み）</li>
+    <li>"I'll be there <strong>around</strong> 7." — 7時頃に行く。（およそ）</li>
+    <li>"Let me show you <strong>around</strong>." — 案内するよ。（あちこち）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs about</strong>：「およそ」では交換可能だが、米国英語では around、英国英語では about が好まれる傾向。物理的な「周り」では around が普通。</li>
+    <li><strong>British vs American</strong>：英国では round と around が同義、米国ではほぼ around のみ。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>around the world</strong>（世界中で）</li>
+    <li><strong>all around</strong>（あらゆる方向に）</li>
+    <li><strong>the other way around</strong>（逆に）</li>
+  </ul>
+</article>
+
+<!-- ▼ 19. like -->
+<article class="prep" id="p19">
+  <div class="head"><span class="num">No.19</span><h3 class="word">like</h3><span class="tag">― 似たもの同士、同じ波長</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>似ている、同じ周波数の波</strong>。「〜のような」。比較対象と並べて、波形を重ね合わせる感覚。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>類似：look like, sound like, taste like</li>
+    <li>例示：like this, like Tom</li>
+    <li>〜のように（様態）：work like a dog</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"He looks <strong>like</strong> his father." — 彼は父親に似ている。（類似）</li>
+    <li>"I want something <strong>like</strong> that." — あんなのが欲しい。（例示）</li>
+    <li>"It feels <strong>like</strong> summer." — 夏みたいだ。（様態）</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs as</strong>：like は前置詞「〜のような」（後に名詞）、as は接続詞「〜として／〜のように」（後に節 or 役割）。"He works as a teacher"（教師として実際に働く）vs "He works like a teacher"（教師のように振る舞うが本職ではない）。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>feel like ~ing</strong>（〜したい気分）</li>
+    <li><strong>look like / sound like / taste like</strong>（〜に見える／聞こえる／味がする）</li>
+    <li><strong>something like that</strong>（そんなもの）</li>
+  </ul>
+</article>
+
+<!-- ▼ 20. without -->
+<article class="prep" id="p20">
+  <div class="head"><span class="num">No.20</span><h3 class="word">without</h3><span class="tag">― 伴わない、欠けた状態</span></div>
+  <h4>① コアイメージ</h4>
+  <p><strong>with の正反対。伴わない・欠けている</strong>。with の波が消えた状態。「〜なしで」。</p>
+  <h4>② 主な用法</h4>
+  <ul>
+    <li>欠如：without sugar, without you</li>
+    <li>〜することなく（動名詞付）：without saying a word</li>
+  </ul>
+  <h4>③ 例文</h4>
+  <ul class="examples">
+    <li>"I can't live <strong>without</strong> coffee." — コーヒーなしでは生きられない。（欠如）</li>
+    <li>"He left <strong>without</strong> saying goodbye." — 彼はさよならも言わずに帰った。（〜せずに）</li>
+    <li>"She did it <strong>without</strong> any help." — 彼女は誰の助けもなくやり遂げた。</li>
+  </ul>
+  <h4>④ 類似前置詞との違い</h4>
+  <ul class="compare">
+    <li><strong>vs with</strong>：完全な対称ペア。"with sugar / without sugar"。</li>
+    <li><strong>vs except</strong>：without は「〜なしで・欠けて」、except は「〜以外」。Cambridge Dictionary: "Without has a negative meaning. We don't use another negative word immediately after it" ― 二重否定にしないよう注意。</li>
+  </ul>
+  <h4>⑤ 頻出コロケーション</h4>
+  <ul class="collo">
+    <li><strong>without doubt</strong>（疑いなく）</li>
+    <li><strong>do without</strong>（〜なしで済ます）</li>
+    <li><strong>go without saying</strong>（言うまでもない）</li>
+  </ul>
+</article>
+
+<div class="divider">◆ ◆ ◆</div>
+
+<!-- Recommendations -->
+<section id="roadmap">
+  <h2>Recommendations ― 学習の段階的ロードマップ</h2>
+
+  <h3>Stage 1（1〜2週目）：頂点5個を「波」として体得する</h3>
+  <p><strong>in / on / at / to / for</strong> ― 全前置詞使用の半分以上を占める。各前置詞のコアイメージを「水・空間・流体」のメタファーで身体化する。例：in = 容器に沈む、on = 表面にくっつく、at = 一点に針が刺さる。具体例を10個ずつ音読する。</p>
+
+  <h3>Stage 2（3〜4週目）：使い分けトリオの完全マスター</h3>
+  <ul>
+    <li>① <strong>in / on / at</strong>（場所と時間のスケール）</li>
+    <li>② <strong>to / for</strong>（到達 vs 方向）</li>
+    <li>③ <strong>by / with</strong>（行為者 vs 道具）</li>
+    <li>④ <strong>during / for / while</strong>（いつ／どれくらい／同時に）</li>
+  </ul>
+  <p>これらは Cambridge Dictionary のページを直接参照しながら、対になる例文を比較する形で学ぶ。</p>
+
+  <h3>Stage 3（5〜6週目）：拡張の8個</h3>
+  <p><strong>of, with, from, by, about, into, through, over</strong> をコアイメージから派生意味へ。特に of は「全体と部分」の感覚、with は「伴って・手にして」、over は protoscene「上にあって近接」を理解する。</p>
+
+  <h3>Stage 4（7〜8週目）：補完の7個</h3>
+  <p><strong>after, before, between, under, around, like, without</strong> を空間的・対称的なペアとして学ぶ（after⇔before, over⇔under, with⇔without）。</p>
+
+  <h3>学習基準（達成度の指標）</h3>
+  <ul>
+    <li>✅ <strong>Stage 1達成</strong>：基本5個で簡単な日記が書ける（毎日3文以上）。</li>
+    <li>✅ <strong>Stage 2達成</strong>：使い分けトリオで誤りが10問中2問以下。</li>
+    <li>✅ <strong>Stage 3達成</strong>：think of/about、made of/from など微差が説明できる。</li>
+    <li>✅ <strong>Stage 4達成</strong>：句動詞（look after, get over, run into など）が100個ストックできる。</li>
+  </ul>
+
+  <h3>このロードマップを変更する条件</h3>
+  <ul>
+    <li>もし<strong>TOEIC等の試験対策</strong>を主目的にするなら、Stage 3で during, until, despite, regarding を追加し、ビジネス英文重視に切り替えるべき。</li>
+    <li>もし<strong>幼児・小学生向け</strong>なら、まず in/on/under/over の物理空間4個に1ヶ月かけ、抽象用法は後回しに。</li>
+  </ul>
+</section>
+
+<!-- Caveats -->
+<section id="caveats">
+  <h2>Caveats ― 注意点</h2>
+  <ol class="numbered">
+    <li><strong>コアイメージは万能ではない</strong>：Tyler &amp; Evans の protoscene 理論自体、Sandra &amp; Rice (1995) "Network analyses of prepositional meaning: Mirroring whose mind—The linguist's or the language user's?" <em>Cognitive Linguistics</em> 6: 89–130 などから「ネットワーク分析が言語学者の頭の中を写しているのか、言語使用者の頭を写しているのか不明確」「文脈情報を意味に投影しすぎ」と批判されています。コアイメージは学習の足場（scaffolding）であり、最終的にはコロケーション（depend on, look forward to など）として丸ごと覚えるべきものも多い。</li>
+    <li><strong>頻度データには方言差・ジャンル差がある</strong>：本リストは主に米国英語コーパス（COCA）と英国寄りの BNC・OEC を統合した順位ですが、英国英語では around より round が、米国英語では toward が一般的、など使用偏差があります。</li>
+    <li><strong>like の頻度上位は前置詞用法だけではない</strong>：COCA で like が高頻度なのは動詞（I like it）、接続詞（like she said）、ディスコースマーカー（he was like, "no"）の用法を合算しているためで、純粋な前置詞としての頻度は実際にはやや下がります。</li>
+    <li><strong>「会話の8割をカバー」は便宜的表現</strong>：上位20の前置詞で英文中の前置詞使用の大半を占めるのは事実ですが、それでも残り（especially、despite、throughout など）が複雑な意味を担うため、「上位20で英会話の8割が話せる」と短絡しないこと。</li>
+    <li><strong>日本語訳の罠</strong>：「〜で」一語が by/with/in/at/on の5通りに対応する場合があり、日本語の「で」を起点に英語を組み立てると必ず誤訳します。場面とイメージで切り分けてください。</li>
+    <li><strong>大西泰斗・田中茂範のコアイメージは教育的・直感的なモデル</strong>：純粋な認知言語学的記述（Lakoff、Langacker、Tyler &amp; Evans 等）と完全には一致しません。学習段階では大西流で入り、上級になったら Tyler &amp; Evans 等の英文献で精緻化する二段階学習を推奨します。</li>
+  </ol>
+</section>
+
+</main>
+
+<button class="top-btn" id="topBtn" aria-label="ページの先頭へ戻る">↑</button>
+
+<script>
+// 「先頭に戻る」ボタンの表示制御
+const topBtn = document.getElementById('topBtn');
+window.addEventListener('scroll',()=>{
+  if(window.scrollY > 400) topBtn.classList.add('show');
+  else topBtn.classList.remove('show');
+});
+topBtn.addEventListener('click',()=>{
+  window.scrollTo({top:0,behavior:'smooth'});
+});
+</script>
+
+</body>
+</html>
